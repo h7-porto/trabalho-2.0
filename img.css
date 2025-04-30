@@ -1,0 +1,42 @@
+
+
+body{
+    color: black;
+    font-family:'Times New Roman', Times, serif;
+    background-color:beige;
+}
+img {
+ width: 350px;
+ height: 250px;
+
+}
+.center1{
+    position: relative;
+    right: -400px;
+    top: -180px
+}
+
+header{
+    background-color: gray;
+    color: black;
+    position: relative;
+    top: -20px;
+    width: 10050px;
+    height: 180px;
+}
+.img2{
+    width: 95px;   
+    height: 40px;
+    position: relative;
+    top: -40px;
+    right: -100px ;
+}.text{
+    position: relative;
+    right: -400px;
+    top: -10px;
+
+}.text2{
+    position: relative;
+    right: -455px;
+    top: -25px;
+}
