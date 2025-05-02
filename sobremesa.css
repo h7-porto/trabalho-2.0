@@ -183,20 +183,22 @@ justify-content: center;
     margin-top: 2rem;
     margin-bottom: 2rem;
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax (20px, 60px));
+    grid-template-columns: repeat(2, 1fr);
     justify-content: center;    
     align-items: center;
     gap: 30px; 
 }
 
 .itens-cardapio .info{
-    background-color: beige;
+    background-color: rgb(169,135,88);
     border: none;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     padding: 1.5rem;
+    color: beige;
+    text-decoration: underline;
 }
 
 .itens-cardapio .info h3{
@@ -229,10 +231,19 @@ justify-content: center;
 }
 .itens-cardapio img{
     width: 100%;
-    height: 200px;
-    display: inline-block;
-}.img1{
- display: flex;
- width: 100px;
+    height: 300px;
 }
 
+footer{
+    width: 100vw;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: beige;
+    padding-left: 53rem; 
+
+}
+footer .text{
+    color:  rgb(91,52,35);
+}
