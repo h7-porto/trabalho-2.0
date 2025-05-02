@@ -1,0 +1,26 @@
+body {
+    color: black;
+    background-color: beige; 
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    padding: 20px;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
