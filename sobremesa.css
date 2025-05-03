@@ -234,6 +234,16 @@ justify-content: center;
     height: 300px;
 }
 
+.itens-cardapio .info .pedir {
+    width: 200px;
+    height: 35px;
+    margin-top: 0.5rem;
+    background-color:  rgb(91,52,35);
+    border-radius: 5px;
+    cursor: pointer;
+    color: beige;
+}
+
 footer{
     width: 100vw;
     height: 70px;
