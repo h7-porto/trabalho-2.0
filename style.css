@@ -16,7 +16,7 @@ html {
     overflow-x: hidden;
 }
 
-/MENU/
+/*MENU*/
 
 .content {
     width: 100vw;
@@ -67,7 +67,7 @@ html {
     color:  rgb(62, 37, 37);
 }
 
-/first-section/
+/*first-section*/
 
 .first-section{
     height: 100vh;
@@ -125,7 +125,7 @@ html {
         justify-content: space-between;
     }
 
-    /Sobre nós/
+    /*Sobre nós*/
 
     .sobre-nos{
         background-color: black;
@@ -163,7 +163,7 @@ html {
         width: 600px;
     }
 
-    /Contatos/
+    /*Contatos*/
 
     .contatos{
         width: 100%;
