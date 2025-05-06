@@ -41,7 +41,7 @@ body {
     }
     
     .logo h3 {
-        color: black;
+        color:  rgb(91,52,35);
         font-size: 1.6rem;
     }
     
@@ -141,17 +141,16 @@ body {
         width: 200px;
         height: 35px;
         margin-top: 0.5rem;
-        background-color: darkorange;
+        background-color:  rgb(91,52,35);
         border-radius: 5px;
         text-transform: uppercase;
         cursor: pointer;
-        color: black;
+        color: beige;
         transition: all 200ms ease-in;
-    
-    
     }
-    .itens-cardapio .info .pedir:hover{
-        background-color: #5e5252;
+    
+    .itens-cardapio .info .pedir:hover {
+        background-color: #5e5e5e;
         color: white;
     }
     

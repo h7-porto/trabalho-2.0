@@ -15,8 +15,6 @@ html{
     overflow-x: hidden;
 }
 
-/*MENU*/
-
 .content {
    width: 100vw;
    height: 70px;
@@ -76,10 +74,10 @@ html{
     color: beige;
 }
 
-/*PRIMEIRA SESSÃO*/
+
 
 .first-section{
-    background-image: url(./imagens/fundo_sobremesa.png);
+    background-image: url(./imagens/fundo_entradas.png);
     background-size: cover; 
     background-repeat: no-repeat;
     background-position-y: 50px;
@@ -116,7 +114,7 @@ html{
     -webkit-text-stroke: 1.5px black; 
 }
 
-/*DESCRIÇÃO*/
+
 
 .descrition{
 background-color: black;
@@ -129,8 +127,8 @@ justify-content: center;
 }
 
 .descrition img{
-    width: 500px;
-    height: 500px;
+    width: 550px;
+    height: 550px;
     margin-top: 80px;
     margin-left: 80px;
     border: 2px solid beige;
@@ -161,7 +159,7 @@ justify-content: center;
 
 }
 
-/*PRATOS*/
+
 
 .cardapio{
     width: 100vw;
@@ -198,13 +196,13 @@ justify-content: center;
     justify-content: center;
     padding: 1.5rem;
     color: beige;
+    text-decoration: underline;
 }
 
 .itens-cardapio .info h3{
     font-size:  1.2rem;
     text-transform: uppercase;
     margin-bottom: 1rem;
-    text-decoration: underline;
 }
 
 .itens-cardapio .info h4{
@@ -258,6 +256,6 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: white
+    color: white;
 
 }
