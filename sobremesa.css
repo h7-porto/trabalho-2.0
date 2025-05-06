@@ -48,7 +48,7 @@ html{
     border-radius: 60%;
 }
 
-.content .list{
+.content .list-menu{
     width: 600px;
     display: flex;
     align-items:right;
@@ -56,7 +56,7 @@ html{
     
 }
 
-.content .list li a {
+.content .list-menu li a {
     padding-top: 3rem;
     padding-bottom: 2rem;
     padding-right: 1rem;
@@ -70,7 +70,7 @@ html{
 
 }
 
-.content .list li a:hover{
+.content .list-menu li a:hover{
     background-color: rgb(91,52,35);
     border-bottom: 4px solid beige;
     color: beige;
@@ -190,14 +190,14 @@ justify-content: center;
 }
 
 .itens-cardapio .info{
-    background-color: rgb(169,135,88);
+    background-color: beige;
     border: none;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     padding: 1.5rem;
-    color: beige;
+    
 }
 
 .itens-cardapio .info h3{
