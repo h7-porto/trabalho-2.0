@@ -39,7 +39,7 @@ html {
  
  .logo h3{
      color: rgb(91,52,35);
-     font-size: 1.6rem;   
+     font-size: 2.5rem;   
  }
  
  .logo img{
@@ -59,13 +59,13 @@ html {
  
  .content .list-menu li a {
      padding-top: 3rem;
-     padding-bottom: 2rem;
+     padding-bottom: 3rem;
      padding-right: 1rem;
      padding-left: 1rem;
      color: rgb(91,52,35);
      font-size: 12px;
      text-transform: uppercase;
-     font-weight: 100;
+     font-weight: 100px;
      transition: all 200ms ease-in; 
  
  

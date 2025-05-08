@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300..900;1,300..900&display=swap');
 *{ 
     margin: 0;
     padding: 0;
@@ -58,7 +59,7 @@ html{
     padding-top: 3rem;
     padding-bottom: 2rem;
     padding-right: 1rem;
-    padding-left: 1rem;
+    padding-left: 0.5rem;
     color: rgb(91,52,35);;
     font-size: 12px;
     text-transform: uppercase;
@@ -169,7 +170,7 @@ justify-content: center;
 }
 
 .cardapio h2{
-    font-size: 5rem;
+    font-size: 50px;
     color: beige;
     text-transform: uppercase;
 }
