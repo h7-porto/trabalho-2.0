@@ -22,11 +22,9 @@ html{
    width: 100vw;
    height: 70px;
    display: flex;
-   justify-content: space-around;
    align-items: center;
    background-color: beige;
    position: fixed;
-   padding-left: 30rem;
 }
 
 .logo{
@@ -35,13 +33,14 @@ html{
     cursor: pointer;
     display: flex;
     align-items: center;
-    position: relative;
-    right: -170px;
+    margin-right: 38.5rem;
 }
 
 .logo h3{
     color: rgb(91,52,35);
     font-size: 1.6rem;   
+    text-align: center;
+    margin-left: 31rem;
 }
 
 .logo img{
@@ -49,6 +48,7 @@ html{
     height: 100%;
     text-align: right;
     border-radius: 60%;
+    
 }
 
 .content .list-menu{
@@ -56,6 +56,7 @@ html{
     display: flex;
     align-items:right;
     justify-content: right;
+    margin-left: 3rem;
     
 }
 
@@ -132,8 +133,8 @@ justify-content: center;
 }
 
 .descrition img{
-    width: 500px;
-    height: 500px;
+    width: 400px;
+    height: 400px;
     margin-top: 80px;
     margin-left: 80px;
     border: 2px solid beige;
@@ -153,13 +154,13 @@ justify-content: center;
 }
 
 .sobre h2{
-    font-size: 50px;
+    font-size: 30px;
     margin-bottom: 1rem;
 }
 
 .sobre p{
     text-align: center;
-    font-size: 30px;
+    font-size: 20px;
     width: 600px;
 
 }
@@ -176,7 +177,7 @@ justify-content: center;
 }
 
 .cardapio h2{
-    font-size: 50px;
+    font-size: 30px;
     color: beige;
     text-transform: uppercase;
 }

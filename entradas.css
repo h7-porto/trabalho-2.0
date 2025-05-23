@@ -33,8 +33,6 @@ html{
     cursor: pointer;
     display: flex;
     align-items: center;
-    position: relative;
-    right: -170px;
 }
 
 .logo h3{
