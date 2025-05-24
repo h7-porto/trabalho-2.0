@@ -1,97 +1,296 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8 ">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>global_sabores</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-    <title>Global Sabores</title>
-    <link rel="stylesheet" href="style.css">
+   
 </head>
-
 <body>
-
-<header class="content">
+    <header class="content">
         <div class="logo">
             <img src="./imagens/logotipo.png">
-            <h3>Home</h3>
         </div>
-
-    <nav>
-        <ul class="list-menu">
-            <li>
-                <a href="entradas.html">Entrada</a>
-            </li>
-            <li>
-                <a href="pratos.html">Pratos</a>
-            </li>
-            <li>
-                <a href="sobremesa.html">Sobremesas</a>
-            </li>
-            <li>
-                <a href="bebidas.html">Bebidas</a>
-            </li> 
-            <li>
-                <a href="#"><i class="bi bi-facebook"></i></a>
-            </li> 
-            <li>
-                <a href="#"><i class="bi bi-instagram"></i></a>
-            </li> 
-            <li>
-                <a href="#"><i class="bi bi-cart"></i></a>
-            </li> 
-
-        </ul>
-    </nav>
-</header>
-
-    <section class="first-section">
-        <div class="conteudo-principal">
-            <h1>O melhor restaurante da região!</h1>
-            <h2>Do Norte ao Sul, o sabor do Brasil está aqui! </h2>
-            <div class="btn">
-                <button class="reservar" >Reserve sua mesa</button>
-                <button class="clube_de_sabores" >Clube de Sabores</button>
-            </div>
-        </div> 
-    </section>
-
-    <section class="sobre-nos" id="sobrenos">
-        <div class="main">
-            <div class="contentsobre">
-                <h2>Sobre nós</h2>
-                <p>Desde 1970, o Global Sabores leva à mesa o melhor da culinária brasileira, com pratos que agradam todos os gostos e contam histórias de um país rico em tradições e temperos. Somos um restaurante típico brasileiro que valoriza a diversidade dos sabores regionais. Do tempero marcante do Norte à leveza da culinária do Sul, passando pela riqueza do sertão e o encanto da comid de boteco. Nossa missão é oferecer uma experiência gastronômica acolhedora, onde cada cliente se sinta em casa, independente da sua origem ou preferência. Aqui, tradição e criatividade se encontram em um cardápio variado, feito com ingredientes frescos, muito carinho e aquele toque especial que só a cozinha brasileira tem.
-                    Há mais de cinco décadas, somos ponto de encontro de famílias, amigos e apaixonados por boa comida. O sabor que conquistou gerações continua presente em cada prato servido. Venha conhecer o Brasil pelos sabores!
-                </p>
-            </div>
-                <div class="img-cozinha">
-                    <img src="./imagens/utensilios.jpeg" alt="">
-                </div>
-        </div>
-    </section>
     
-    <section class="contatos" id="contatos">
-        <h3>Contatos</h3>
-        <div class="telefone">
-            <div>
-                <i class="bi bi-telephone"></i>
-            </div>
-            <div>
-                <i class="bi bi-whatsapp"></i>
-            </div>
-            <div>
-                <i class="bi bi-telegram"></i>
-            </div>
-        </div>  
-    </section>  
+        <nav class="main-nav">
+            <ul class="list-menu">
+              <li><a href="#first-section">Home</a></li>
+              <li><a href="#entradas">Entradas</a></li>
+              <li><a href="#principais">Pratos Principais</a></li>
+              <li><a href="#sobremesas">Sobremesas</a></li>
+              <li><a href="#bebidas">Bebidas</a></li>
+              <li><a href="#descrition">Sobre Nós</a></li>
+            </ul>
+        </nav>
+    
+        <div class="icon-group">
+            <a href="#"><i class="bi bi-facebook"></i></a>
+            <a href="#"><i class="bi bi-instagram"></i></a>
+            <a href="#"><i class="bi bi-cart"></i></a>
+        </div>
+    </header>
+
+    <section class="first-section" id="first-section"> 
+        <div class="conteudo">
+            <h1>Faça uma refeição com sabor e tradição</h1>
+            <h2>Nossa comida é a melhor da região.</h2>
+        </div>
+    </section>
+     
+<section class="cardapio" id="cardapio">
+        
+            <main class="cardapio">
+
+                <!-- Entradas -->
+                <section id="entradas">
+                  <h2>Entradas</h2>
+                  <div class="itens-cardapio">
+            
+                    <div>
+                      <img src="imagens/canudinho de frango.jpeg" alt="Canudinho de Frango" />
+                      <div class="info">
+                        <h3>Canudinho de Frango</h3>
+                        <h4>R$29,99 <span>400g</span></h4>
+                        <button class="pedir">Pedir</button>
+                      </div>
+                    </div>
+            
+                    <div>
+                      <img src="imagens/torradinha-mq.jpeg" alt="Torradinha de maionese" />
+                      <div class="info">
+                        <h3>Torradinha</h3>
+                        <h4>R$20,00 <span>200g</span></h4>
+                        <button class="pedir">Pedir</button>
+                      </div>
+                    </div>
+            
+                    <div>
+                      <img src="imagens/massa de pastel.jpeg" alt="Massa de pastel recheada" />
+                      <div class="info">
+                        <h3>Massa Recheada</h3>
+                        <h4>R$15,90 <span>150g</span></h4>
+                        <button class="pedir">Pedir</button>
+                      </div>
+                    </div>
+            
+                    <div>
+                      <img src="imagens/bolinho de arroz.jpeg" alt="Porção de bolinhos de arroz" />
+                      <div class="info">
+                        <h3>Bolinhos de Arroz</h3>
+                        <h4>R$22,99 <span>300g</span></h4>
+                        <button class="pedir">Pedir</button>
+                      </div>
+                    </div>
+            
+                    <div>
+                      <img src="imagens/frango.jpeg" alt="Frango a passarinho" />
+                      <div class="info">
+                        <h3>Frango a Passarinho</h3>
+                        <h4>R$25,99 <span>400g</span></h4>
+                        <button class="pedir">Pedir</button>
+                      </div>
+                    </div>
+            
+                    <div>
+                      <img src="imagens/batata.jpg" alt="Batata Frita" />
+                      <div class="info">
+                        <h3>Batata Frita</h3>
+                        <h4>R$20,99 <span>300g</span></h4>
+                        <button class="pedir">Pedir</button>
+                      </div>
+                    </div>
+            
+                  </div>
+                </section>
+            
+                <!-- Prato Principal -->
+                <section id="principais">
+                  <h2>Prato Principal</h2>
+                  <div class="itens-cardapio">
+            
+                    <div>
+                      <img src="imagens/strogonoff.jpeg" alt="Strogonoff de Frango" />
+                      <div class="info">
+                        <h3>Strogonoff de Frango</h3>
+                        <h4> R$ 21,90 <span>1 porção</span></h4>
+                        <button class="pedir">Pedir Agora</button>
+                      </div>
+                    </div>
+            
+                    <div>
+                      <img src="imagens/picadinho.jpeg" alt="Picadinho de Carne" />
+                      <div class="info">
+                        <h3>Picadinho</h3>
+                        <h4> R$ 25,90 <span>1 porção</span></h4>
+                        <button class="pedir">Pedir Agora</button>
+                      </div>
+                    </div>
+            
+                    <div>
+                      <img src="imagens/sobrecoxa.jpeg" alt="Sobrecoxa Desossada" />
+                      <div class="info">
+                        <h3>Sobrecoxa Desossada</h3>
+                        <h4>R$ 25,90 <span>1 porção</span></h4>
+                        <button class="pedir">Pedir Agora</button>
+                      </div>
+                    </div>
+            
+                    <div>
+                      <img src="imagens/parmegiana.jpeg" alt="Parmegiana" />
+                      <div class="info">
+                        <h3>Parmegiana</h3>
+                        <h4>R$ 39,90 <span>1 porção</span></h4>
+                        <button class="pedir">Pedir Agora</button>
+                      </div>
+                    </div>
+            
+                    <div>
+                      <img src="imagens/fettucine.jpeg" alt="Fettucine com Champignon" />
+                      <div class="info">
+                        <h3>Fettucine</h3>
+                        <h4>R$ 39,90 <span> 1 porção</span></h4>
+                        <button class="pedir">Pedir Agora</button>
+                      </div>
+                    </div>
+            
+                    <div>
+                      <img src="imagens/costelinhasuina.jpeg" alt="Costelinha Suína" />
+                      <div class="info">
+                        <h3>Costelinha Suína</h3>
+                        <h4>R$ 49,90 <span>1 porção</span></h4>
+                        <button class="pedir">Pedir Agora</button>
+                      </div>
+                    </div>
+            
+                  </div>
+                </section>
+            
+                <!-- Sobremesas -->
+                <section id="sobremesas">
+                  <h2>Sobremesas</h2>
+                  <div class="itens-cardapio">
+            
+                    <div>
+                      <img src="./imagens/petit gateau.jpg" alt="Petit Gateau" />
+                      <div class="info">
+                        <h3>Petit Gateau</h3>
+                        <h4>R$34,90 <span>240g</span></h4>
+                        <button class="pedir">Pedir</button>
+                      </div>
+                    </div>
+            
+                    <div>
+                      <img src="./imagens/pudim.jpg" alt="Pudim" />
+                      <div class="info">
+                        <h3>Pudim</h3>
+                        <h4>R$12,90 <span>240g</span></h4>
+                        <button class="pedir">Pedir</button>
+                      </div>
+                    </div>
+            
+                    <div>
+                      <img src="./imagens/mousse.png" alt="Mousse" />
+                      <div class="info">
+                        <h3>Mousse</h3>
+                        <h4>R$12,90 <span>300 ml</span></h4>
+                        <button class="pedir">Pedir</button>
+                      </div>
+                    </div>
+            
+                    <div>
+                      <img src="./imagens/sorvete.png" alt="Sorvete Casquinha" />
+                      <div class="info">
+                        <h3>Sorvete Casquinha</h3>
+                        <h4>R$7,90 <span>30g</span></h4>
+                        <button class="pedir">Pedir</button>
+                      </div>
+                    </div>
+            
+                    <div>
+                      <img src="./imagens/salada de frutas.jpeg" alt="Salada de Frutas" />
+                      <div class="info">
+                        <h3>Salada de Frutas</h3>
+                        <h4>R$12,90 <span>240g</span></h4>
+                        <button class="pedir">Pedir</button>
+                      </div>
+                    </div>
+            
+                    <div>
+                      <img src="./imagens/torta.jpg" alt="Torta Ninho com Morango" />
+                      <div class="info">
+                        <h3>Torta</h3>
+                        <h4>R$26,90 <span>240g</span></h4>
+                        <button class="pedir">Pedir</button>
+                      </div>
+                    </div>
+                   </div>
+                   
+                   <section id="bebidas">
+                    <h2>Bebidas</h2>
+                    <div class="itens-cardapio">
+                      <div>
+                        <img src="./imagens/cerveja.png" alt="Cerveja Artesanal" />
+                        <div class="info">
+                          <h3>Cerveja Artesanal</h3>
+                          <h4>R$32,90 <span>500 ml</span></h4>
+                          <button class="pedir">Pedir</button>
+                        </div>
+                      </div>
+              
+                      <div>
+                        <img src="imagens/drink.png" alt="Coquetel de Frutas" />
+                        <div class="info">
+                          <h3>Coquetel de Frutas</h3>
+                          <h4>R$34,90 <span>500 ml</span></h4>
+                          <button class="pedir">Pedir</button>
+                        </div>
+                      </div>
+              
+                      <div>
+                        <img src="imagens/suco.png" alt="Suco Natural" />
+                        <div class="info">
+                          <h3>Suco Natural</h3>
+                          <h4>R$14,90 <span>500 ml</span></h4>
+                          <button class="pedir">Pedir</button>
+                        </div>
+                      </div>
+                    </div>
+                  </section>
+              
+                </main>
+              </section>
+
+              <section class="descrition" id="descrition">
+                <div class="main">
+                    <div class="sobre">
+                    <h2> Sobre nós</h2>
+                    <p>
+                      Somos apaixonados por oferecer experiências gastronômicas inesquecíveis, combinando sabores autênticos, ingredientes frescos e um atendimento acolhedor. Nosso compromisso é proporcionar pratos de qualidade, preparados com carinho e dedicação, para que cada visita ao nosso restaurante seja especial.
+                    </p>
+                    <p>
+                      Aqui, valorizamos a tradição e a inovação, buscando sempre surpreender o paladar dos nossos clientes com receitas que agradam a todos os gostos. Seja para uma refeição rápida ou um momento para celebrar, estamos prontos para recebê-lo com o melhor da nossa culinária.
+                    </p>
+                    <p>
+                      Venha nos visitar e faça parte dessa história de sabor e paixão pela boa comida!
+                    </p>
+                </div>
+        
+                <div class="img-cook">
+                    <img src="./imagens/cook.jpeg">
+                </div>
+        
+            </section>
+            </body>
+    </body>
 
     <footer>
-        <h1>
-            Avenida Brasil Central, 1123 – Setor Bela Vista
-                  Goiânia – GO | CEP:74830-250
-        </h1>
-    </footer>  
+    
+      <div class="text">
+      <p>© 2025 Sobremesas Global Sabores - Todos os direitos reservados</p>   
+  </div>
+  
+  </footer>
 
-
-</body>
-</html>
+    </html>
