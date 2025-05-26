@@ -77,8 +77,10 @@ html{
  
  .list-menu li a:hover {
      background-color:  #800020;
-     border-bottom: 4px solid beige;
+     
      color: beige;
+     border-radius: 10px;
+     transition: 250ms;
  }
  
  /* NOVO BLOCO: Ícones separados no canto direito */
@@ -99,6 +101,7 @@ html{
  
  .icon-group a:hover {
      color: rgb(60, 30, 15);
+     border-radius: 10px;
  }
 
 /*PRIMEIRA SESSÃO*/
@@ -338,5 +341,17 @@ footer {
   height: 100%;
 }
 .button1{
-  
+  width: 300px;
+  height: 40px;
+  background: beige;
+  color: rgb(91, 52, 35);
+  font-size: 20px;
+  border-radius: 10px;
+}
+.button1:hover{
+  background: #800020;
+  color: beige;
+  transform: scale(1.05);
+  cursor: pointer;
+  transition: 500ms;
 }
