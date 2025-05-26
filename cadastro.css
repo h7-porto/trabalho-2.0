@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300..900;1,300..900&display=swap');
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    border: none;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html{
+    width: 100vw;
+    height: 100vh;
+    font-size: 62,5%;
+    overflow-x: hidden;
+}
+.content {
+    width: 100vw;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: beige;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 0 2rem;
+    box-sizing: border-box;
+    z-index: 1000;
+ }
+ 
+ .logo {
+     display: flex;
+     align-items: center;
+ }
+ 
+ .logo img {
+     width: 50px;
+     height: 50px;
+     border-radius: 50%;
+ }
+ 
+ .logo h3 {
+     color: rgb(91, 52, 35);
+     font-size: 1.6rem;
+     margin-left: 0.5rem;
+ }
+ .main-nav {
+     flex: 1;
+     display: flex;
+     justify-content: center;
+ }
+ 
+ .list-menu {
+     display: flex;
+     align-items: center;
+     gap: 2rem;
+     list-style: none;
+     margin: 0;
+     padding: 0;
+ }
+ 
+ .list-menu li a {
+     color: rgb(91, 52, 35);
+     font-size: 12px;
+     text-transform: uppercase;
+     font-weight: bold;
+     text-decoration: none;
+     transition: all 200ms ease-in;
+     padding: 0.5rem 0.75rem;
+ }
+ 
+ .list-menu li a:hover {
+     background-color:  #800020;
+     border-bottom: 4px solid beige;
+     color: beige;
+ }
+  .icon-group {
+     display: flex;
+     gap: 1rem;
+ }
+ 
+ .icon-group a {
+     color: rgb(91, 52, 35);
+     font-size: 1.3rem;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     text-decoration: none;
+     transition: color 200ms ease-in;
+ }
+ 
+ .icon-group a:hover {
+     color: rgb(60, 30, 15);
+ }
+ .black{
+    color: beige;
+    position: relative;
+    top: 100px;
+
+ }
+ body{
+    background: black;
+ }
+ .m1{
+    display: flex;
+    margin-bottom:10px ;
+    width: 300px;
+    height: 30px;
+    position: relative;
+    top: 500px;
+ }
+ 
