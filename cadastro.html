@@ -29,14 +29,18 @@
             <a href="#"><i class="bi bi-cart"></i></a>
         </div>
     </header>
+    <div class="tudo">
     <h1 class="black">AGENDAMENTO</h1>
     <p class="p1">Nome</p>
-    <input class="m1" type="text" placeholder="seu nome">
+    <input class="m1" type="text" onchange="validatefield()" id="nome" placeholder="seu nome">
     <p class="p2">Email</p>
-    <input class="m1" type="email" placeholder="seuemail@gmail.com">
+    <input class="m1" type="email" id="email" onchange="validatefield()" placeholder="seuemail@gmail.com">
+    <p class="p1">Senha</p>
+    <input class="m1" id="senha" onchange="validatefield()" type="password"  placeholder="suasenha">
     <p class="p3">Data do Agendamento</p>
     <input class="m1" type="date">
-    <button class="entrar">Reservar Mesas</button>
+    <button class="entrar" id="reservar" disabled="true">Reservar Mesas</button>
+    </div>
     <script src="cadastro.js"></script>
 </body>
 
@@ -44,7 +48,7 @@
 
       
       <div class="text">
-      <p>© 2025 Sobremesas Global Sabores - Todos os direitos reservados</p>   
+      <p>© 2025 Sobremesas Global Sabores - Todos os direitos reservadoss</p>   
   </div>
   
   </footer>
