@@ -1,8 +1,8 @@
 function validatefield(){
   const emailvalid= emailvalido();
   const senhavalida = passwordvalid();
-  const nomevalido = namevalid();
-  document.getElementById('reservar').disabled = !emailvalid || !senhavalida || !nomevalido  ;
+  
+  document.getElementById('reservar').disabled = !emailvalid || !senhavalida;
   
     
   
@@ -23,13 +23,7 @@ function passwordvalid(){
     }
         return true;
 }
-function namevalid(){
-    const namevalid = document.getElementById('nome').value;
-    if (!namevalid){
-        return false;
-    }
-    return true;
-}
+
 
 function validateEmail(email) {
     return /\S+@\S+\.\S+/.test(email);

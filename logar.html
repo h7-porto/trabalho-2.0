@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Agendamento</title>
-    <link rel="stylesheet" href="cadastro.css">
+    <title>Login</title>
+    <link rel="stylesheet" href="logar.css">
 </head>
 <body>
      <header class="content">
@@ -31,24 +31,28 @@
     </header>
     <div class="tudo">
     <h1 class="black">AGENDAMENTO</h1>
-    <p class="p1">Nome</p>
-    <input class="m1" type="text" onchange="validatefield()" id="nome" placeholder="seu nome">
+    <h1 class="black1">LOGIN</h1>
     <p class="p2">Email</p>
     <input class="m1" type="email" id="email" onchange="validatefield()" placeholder="seuemail@gmail.com">
     <p class="p1">Senha</p>
     <input class="m1" id="senha" onchange="validatefield()" type="password"  placeholder="suasenha">
-    <p class="p3">Data do Agendamento</p>
-    <input class="m1" type="date">
-    <a href="logar.html"><button  class="entrar" id="reservar" disabled="true">Login</button></a>
+    <div class="botao">
+    <a href="#"><button class="entrar" id="reservar" disabled="true">Reservar-se</button></a>
+    <a href="cadastro.html"><button class="entrar1" id="reservar1" >Cadastrar-se</button></a>
+    
     </div>
-    <script src="cadastro.js"></script>
+    
+    </div>
+    <p class="p4">Cadastre-se caso não tenha um login</p>
+    
+    <script src="logar.js"></script>
 </body>
 
     <footer>
 
       
       <div class="text">
-      <p>© 2025 Sobremesas Global Sabores - Todos os direitos reservadoss</p>   
+      <p>© 2025 Sobremesas Global Sabores - Todos os direitos reservados</p>   
   </div>
   
   </footer>
