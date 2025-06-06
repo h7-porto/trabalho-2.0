@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="logar.css">
+</head>
+<body>
+     <header class="content">
+        <div class="logo">
+            <img src="./imagens/logotipo.png">
+        </div>
+    
+        <nav class="main-nav">
+            <ul class="list-menu">
+              <li><a href="page.html">Home</a></li>
+              <li><a href="page.html">Entradas</a></li>
+              <li><a href="page.html">Pratos Principais</a></li>
+              <li><a href="page.html">Sobremesas</a></li>
+              <li><a href="page.html">Bebidas</a></li>
+              <li><a href="page.html">Sobre Nós</a></li>
+            </ul>
+        </nav>
+    
+        <div class="icon-group">
+            <a href="#"><i class="bi bi-facebook"></i></a>
+            <a href="#"><i class="bi bi-instagram"></i></a>
+            <a href="#"><i class="bi bi-cart"></i></a>
+        </div>
+    </header>
+    <div class="tudo">
+    <h1 class="black">AGENDAMENTO</h1>
+    <h1 class="black1">LOGIN</h1>
+    <p class="p2">Email</p>
+    <input class="m1" type="email" id="email" onchange="validatefield()" placeholder="seuemail@gmail.com">
+    <p class="p1">Senha</p>
+    <input class="m1" id="senha" onchange="validatefield()" type="password"  placeholder="suasenha">
+    <div class="botao">
+    <a href="#"><button class="entrar" id="reservar" disabled="true">Reservar-se</button></a>
+    <a href="cadastro.html"><button class="entrar1" id="reservar1" >Cadastrar-se</button></a>
+    
+    </div>
+    
+    </div>
+    <p class="p4">Cadastre-se caso não tenha um login</p>
+    
+    <script src="logar.js"></script>
+</body>
+
+    <footer>
+
+      
+      <div class="text">
+      <p>© 2025 Sobremesas Global Sabores - Todos os direitos reservados</p>   
+  </div>
+  
+  </footer>
+</html>
