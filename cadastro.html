@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<title>Cadastro</title>
+</head>
+<body>
+
+<h3>Criar Conta</h3>
+
+<input id="nome" type="text" placeholder="Nome">
+<input id="cpf" type="text" placeholder="CPF">
+<input id="senha" type="password" placeholder="Senha">
+
+<button onclick="cadastrar()">Cadastrar</button>
+
+<script>
+async function cadastrar(){
+    const nome = document.getElementById("nome").value;
+    const cpf = document.getElementById("cpf").value;
+    const senha = document.getElementById("senha").value;
+
+    const enviar = await fetch("http://localhost:3000/cadastrar", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ nome, cpf, senha })
+    });
+
+    const resposta = await enviar.json();
+
+    if(resposta.ok){
+        alert("Conta criada com sucesso!");
+        window.location.href = "login.html";
+    }else{
+        alert(resposta.erro);
+    }
+}
+</script>
+
+</body>
+</html>
